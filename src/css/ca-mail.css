@@ -1,0 +1,81 @@
+/* CSS for Header tag */
+header h1 {
+    margin: 10px auto;
+}
+
+/* CSS for Section tag */
+#google-accessibility {
+    height: 300px;
+    width: 300px;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone input {
+    padding-left: 35%;
+}
+
+.vn-logo img {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+.vn-logo span {
+    position: absolute;
+    top: 7px;
+    left: 50px;
+}
+
+.logos img {
+    height: 35px;
+    width: 35px;
+    margin: 0 10px;
+}
+
+.create-user-form {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: beige;
+}
+
+#capcha-pic {
+    width: 100%;
+}
+
+.icons {
+    line-height: 38px;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+    text-align: right;
+}
+
+input[type="email"]:-moz-placeholder {
+    text-align: right;
+}
+
+/* CSS for Footer tag */
+footer {
+	/* position: absolute;
+	width: 100%;
+    bottom: 0;
+    left: 0; */
+	background-color: aqua;
+}
+
+footer a {
+    font-weight: 1;
+	text-decoration: underline;
+}
+
+footer span {
+    font-weight: 1;
+	color: #adb5bd;
+}

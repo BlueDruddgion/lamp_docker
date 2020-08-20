@@ -1,0 +1,13 @@
+h5 {
+    color: white;
+    background-color: blueviolet;
+}
+
+.error {
+    margin-left: 300px;
+}
+
+.warning {
+    color: red;
+    display: none;
+}

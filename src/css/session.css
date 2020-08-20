@@ -1,0 +1,27 @@
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* CSS for Header tag */
+header img {
+    height: 300px;
+    width: 100%;
+}
+
+header .col-md-6 {
+    padding: 0 !important;
+}
+
+/* CSS for Section tag */
+.side-bar {
+    background-color: chartreuse;
+}
+
+.side-bar ul {
+    padding: 20px;
+}
+.side-bar ul a:hover {
+    text-decoration: none;
+}
+/* CSS for Footer tag */

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Google Account</title>
+    <link rel="stylesheet" href="/css/ca-mail.css">
+    <link rel="stylesheet" href="../vendor/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <!-- <script src="../statics/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="../vendor/fontawesome-free-5.12.1-web/css/all.css">
+    <script src="../vendor/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="text-center">Create your Google Account</h1>
+        </header> <!-- end of header -->
+
+        <section>
+            <div class="row">
+                <div class="col-md-8 text-center">
+                    <div>
+                        <h3>One account is all you need</h3>
+                        <span>A single username and password gets you into everything Google.</span>
+                    </div>
+                    <div class="logos">
+                        <br>
+                        <img src="/images/google-logo.jpg" alt="google-logo">
+                        <img src="/images/gmail-logo.png" alt="gmail-logo">
+                        <img src="/images/map.png" alt="map">
+                        <img src="/images/youtube.png" alt="youtube">
+                        <img src="/images/drive.png" alt="drive">
+                        <img src="/images/Google-Photos-icon-logo.png" alt="photos">
+                        <img src="/images/chplay.png" alt="chplay">
+                        <img src="/images/google-chrome.png" alt="google-chrome">
+                    </div>
+                    <br><br>
+                    <div>
+                        <h3>Take it all with you</h3>
+                        <span>Switch between devices, and pick up whenever you left off.</span>
+                        <br>
+                        <img src="/images/google-accessibility.jpg" alt="google-accessibility" id="google-accessibility">
+                    </div>
+                </div>
+                <div class="col-md-4 create-user-form">
+                    <form action="#" method="POST">
+                        <span id="name"><b>Name</b></span><br>
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <input type="text" name="first-name" aria-labelledby="name" class="form-control" placeholder="First">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" name="last-name" aria-labelledby="name" class="form-control" placeholder="Last">
+                            </div>
+                        </div>
+                        <br>
+                        <label for="email"><b>Choose your username</b></label>
+                        <input class="form-control" type="email" id="email" placeholder="@gmail.com">
+                        <br>
+                        <label for="password"><b>Create a password</b></label>
+                        <input type="password" class="form-control" id="password">
+                        <br>
+                        <label for="retype-password"><b>Confirm your password</b></label>
+                        <input type="password" class="form-control" id="retype-password">
+                        <br>
+                        <span id="birthday"><b>Birthday</b></span>
+                        <div class="form-row">
+                            <select class="col-md-5 form-control" name="month" id="month" aria-labelledby="birthday">
+                                <option hidden selected disabled> <b>Month</b> </option>
+                                <option value="1">January</option>
+                                <option value="2">Febuary</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                            </select>
+                            <div class="col-md-3">
+                                <input class="form-control" type="text" placeholder="Day" aria-labelledby="birthday">
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" aria-labelledby="birthday" type="text" placeholder="Year">
+                            </div>
+                        </div>
+                        <br>
+                        <label for="gender"><b>Gender</b></label>
+                        <select name="gender" id="gender" class="form-control">
+                            <option hidden selected disabled> I am ... </option>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+                        <br>
+                        <label for="phone"><b>Mobile phone</b></label>
+                        <div class="form-group phone">
+                            <input class="form-control" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <div class="vn-logo">
+                                <img src="/images/vietnam.jpeg" alt="vn-logo">
+                                <span> +84 </span>
+                            </div>
+                        </div>
+                        <br>
+                        <label for="address"><b>Your current email address</b></label>
+                        <input type="text" name="address" id="address" class="form-control">
+                        <br>
+                        <span id="validate"><b>Prove you're not a robot</b></label>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="keep-sign-in" aria-labelledby="validate">
+                            <label class="form-check-label" for="keep-sign-in">Skip this verification (phone verification may be required)</label>
+                        </div>
+                        <br>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <img src="/images/capcha.png" alt="capcha" id="capcha-pic">
+                            </li>
+                            <li class="list-group-item">
+                                <label for="capcha"><b>Type the text:</b></label>
+                                <br>
+                                <div class="form-row">
+                                    <div class="col-sm-9">
+                                        <input type="text" name="capcha" id="capcha" class="form-control">
+                                    </div>
+                                    <div class="col-sm-3 text-center icons">
+                                        <i class="fas fa-sync"></i>
+                                        <i class="fa fa-volume-up" aria-hidden="true"></i>
+                                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <br>
+                        <label for="location"><b>Location</b></label>
+                        <select name="location" id="location" class="form-control">
+                            <option hidden selected disabled value="vn"> Vietnam (Việt Nam) </option>
+                            <option value="us">United States</option>
+                            <option value="fr">France</option>
+                            <option value="cn">China</option>
+                        </select>
+                        <br>
+                        <div class="text-center">
+                            <button class="btn btn-primary">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section> <!-- end of section -->
+        
+        <footer>
+            <div class="container-fluid text-center">
+                <span>&#169;2010 Google</span>
+                <span class="dash">-</span>
+                <a href="#">Gmail for Organizations</a>
+                <span class="dash">-</span>
+                <a href="#">Gmail Blog</a>
+                <span class="dash">-</span>
+                <a href="#">Terms</a>
+                <span class="dash">-</span>
+                <a href="#">Help</a>
+            </div>
+        </footer> <!-- end of footer -->
+    </div>
+</body>
+</html>

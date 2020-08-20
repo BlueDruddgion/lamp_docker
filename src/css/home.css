@@ -1,0 +1,75 @@
+/* CSS for Header tag */
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+header img {
+    height: 400px;
+    width: 1920px;
+}
+
+header {
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+/* CSS for Section tag */
+section .row .col-md-3, section .row .col-md-9 {
+    border: 5px solid #c1c1c1;
+    border-top: 0px;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+.list-items {
+    padding-left: 25px;
+}
+
+section .row .col-md-3 .col-md-3 {
+    border: 0;
+}
+
+.underline {
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+.text {
+    margin: 0px 25px;
+}
+
+.first {
+    margin-top: 20px;
+}
+
+.photo-des {
+    color: blue;
+}
+
+.photo-des b {
+    color: red;
+}
+
+.photo-site img {
+    height: 400px;
+    width: 400px;
+    padding: auto;
+}
+
+/* CSS for Footer tag */
+footer .row {
+    height: 40px;
+}
+
+footer .row div {
+    border: 5px solid #c1c1c1;
+    line-height: 40px;
+}
+
+footer .row > div:last-of-type span {
+    padding-left: 20px;
+}
+
+.icons i {
+    margin: auto 10px;
+}

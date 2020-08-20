@@ -1,0 +1,71 @@
+/* CSS for Header tag */
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+header img {
+    height: 400px;
+    width: 1920px;
+}
+
+header {
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+/* CSS for Section tag */
+section .row .col-md-3, section .row .col-md-9 {
+    border: 5px solid #c1c1c1;
+    border-top: 0px;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+form h4, section .col-md-9 form label {
+    color: white;
+}
+
+.list-items {
+    padding-left: 25px;
+}
+
+section .row .col-md-3 .col-md-3 {
+    border: 0;
+}
+
+.photo-des {
+    color: blue;
+}
+
+.photo-des b {
+    color: red;
+}
+
+section .col-md-9 form {
+    background-color: #888888;
+    padding: 20px;
+}
+
+section .col-md-9 form .skill {
+    border: 0 !important;
+    padding: 0 15px !important;
+    margin-top: 0 !important;
+}
+
+/* CSS for Footer tag */
+footer .row {
+    height: 40px;
+}
+
+footer .row div {
+    border: 5px solid #c1c1c1;
+    line-height: 40px;
+}
+
+footer .row > div:last-of-type span {
+    padding-left: 20px;
+}
+
+.icons i {
+    margin: auto 10px;
+}

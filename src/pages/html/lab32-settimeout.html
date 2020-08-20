@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Form</title>
+    <!-- <link rel="stylesheet" href="/css/ca-mail.css"> -->
+    <link rel="stylesheet" href="../vendor/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <!-- <script src="../statics/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="../vendor/fontawesome-free-5.12.1-web/css/all.css">
+    <script src="../vendor/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+
+    <form action="javascript:void(0)" method="post">
+        <select name="picture" id="picture">
+            <option value="0">Anh 1</option>
+            <option value="1">Anh 2</option>
+            <option value="2">Anh 3</option>
+            <option value="3">Anh 4</option>
+            <option value="4">Anh 5</option>
+        </select>
+
+        <button type="submit" id="play">Play</button>
+        <button type="submit" id="stop">Stop</button>
+    </form>
+    <div class="img-display"><img src="/images/drive.png" alt="drive"></div>
+
+    <script>
+        var path = '/images/'
+        var id = 0, t
+        var imgArray = new Array('drive.png', 'chplay.png', 'gmail.png', 'google-chrome.png', 'nana-dog.jpg')
+        
+        $('#picture').change(function() {
+            id = $('#picture option:selected').val()
+            $('.img-display').html('<img src=' + path + imgArray[id] + '>')
+        })
+
+        function change_picture() {
+            if (id < 4) id += 1
+            else id = 0
+            $('.img-display').html('<img src=' + path + imgArray[id] + '>')
+            t = setTimeout(change_picture, 5000)
+        }
+
+        $('#play').click(function() {
+            change_picture()
+        })
+
+        $('#stop').click(function() {
+            clearTimeout(t)
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body > div:first-of-type {
+    position: relative;
+    margin: 0px;
+}
+
+.container-fluid div {
+    padding: 0 !important;
+}
+
+/* CSS for Header tag */
+header {
+    position: absolute;
+    top: 0;
+    background-color: aqua;
+}
+
+.gmail-logo {
+    width: 320px;
+    height: 170px;
+}
+
+.welcome {
+    height: 170px;
+    line-height: 155px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+/* CSS for Section tag */
+section {
+    position: absolute;
+    top: 220px;
+    left: 390px;
+}
+
+.sign-in-form, .create-account {
+    background-color: cadetblue;   
+}
+
+.google-logo {
+    margin-left: 25px;
+}
+
+.form-group {
+    margin-bottom: 0 !important;
+}
+
+.form-row > div:last-of-type {
+    font-size: 28px;
+    text-align: left;
+    line-height: 37px;
+}
+
+.google-logo span {
+    font-size: 28px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sign-in div {
+    text-align: center;
+}
+
+.sign-in-form .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.form-check {
+    margin-top: 10px;
+}
+
+.sign-in-button {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.email-recovery a, .gmail-info a {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+label[for="user-name"], label[for="password"] {
+    padding-left: 25px;
+}
+
+form {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+.create-acc-btn {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+/* CSS for Footer tag */
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: aqua;
+}
+
+footer a {
+    font-weight: 1;
+	text-decoration: underline;
+}
+
+footer span {
+    font-weight: 1;
+	color: #adb5bd;
+}
